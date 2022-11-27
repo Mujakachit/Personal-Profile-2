@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="styles.css
+  ">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family
+=Nunito+Sans:wght@200;300;400&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- icons -->
+
+  <script src="https://kit.fontawesome.com/e027be6352.js" crossorigin="anonymous"></script>
+
+
+
+  <title>Tinotenda Mujakachi Personal Profile</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a class="logo" href="index.html"><img
+          src="images/tino-m-high-resolution-logo-color-on-transparent-background (2).png" alt=""></a>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="Contact me.html">Contact</a></li>
+
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+      <button id="button-1" class="button-28" role="button">Contact</button>
+
+
+
+    </nav>
+    <hr class="header-hr">
+
+  </header>
+
+  <section class="about-me">
+
+    <div class="row">
+      <div class="column-left">
+        <h1> Hi, i'm Tinotenda</h1>
+        <hr class="about-hr">
+        <p>I'm an aspiring blockchain developer, crypto and NFT ethusiast. My first encounter with blockchain technology had me hooked, which lead me down the rabbit hole of NFTs, cryptocurrencies and, eventually Web3.
+          <br><br> I essentially got bitten by the bug to create and bring my ideas to light. Learning how to code has given liberated me. Not only can i bring my own ideas to fruition, i can help others with theirs as well.
+          <br>
+          Before i started Learningto code i crafted high-performing and professional virtual tours for realestate, commercial buildings and sporting facilities. 
+          <br><br>
+          My virtual tours are brand-accurate and highly tailored to the client.
+        </p>
+        <button id="button-2" class="button-28" role="button"> Download CV</button>
+
+
+      </div>
+      <div class="column-right">
+        <img class="myself" src="images/Me.jpg" alt="">
+        <div class="square"></div>
+      </div>
+    </div>
+
+
+  </section>
+
+<section class="comments">
+  <div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form action="" class="comment-form">
+       <input type="text" placeholder="Enter Name">
+       <input type="email" placeholder="Enter Email">
+       <textarea rows="5" placeholder="Your comment"></textarea>
+       <button type="submit" class="button-white" role="button">POST COMMENT</button>
+    </form>   
+   </div>    
+</div>
+
+</section>
+
+
+  <!-- contact us  -->
+
+  <section class="contact-us">
+
+    <div>
+      <h3>Contact Us</h3>
+      <p>I craft high-performing, beautiful webites and virtual tours for realestate.
+        They are brand-accurate and people friendly</p>
+
+      <button id="button-4" class="button-28" role="button">Start A Conversation</button>
+
+
+
+
+      <hr>
+      <footer>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-discord"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <p>Authored by Tinotenda Victor Mujakachi</p>
+
+      </footer>
+
+
+
+
+  </section>
+
+
+  <script>
+    //  javascript for toggle menu 
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+
+    }
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
